@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'pretendard';
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+html{
+    width: 100%;
+}
+
+body{
+    width: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+.logo{
+    color: #222222;
+    padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    /* 화면 너비가 768px 이하인 경우에만 적용되는 스타일 */
+
+    .nav{
+        padding-top: 10%;
+    }
+
+  }
+  
+.actego{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+#menu{
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    display: grid;
+    gap: 30px;
+    max-width: 1020px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    font-weight: 700;
+}
+
+img{
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+}
+
+/* .accsec1{
+    background-image: url(./img/acc1.jpg);
+    width: 130px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.accsec2{
+    background-image: url(./img/acc2.jpg);
+    width: 130px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.accsec3{
+    background-image: url(./img/acc3.jpg);
+    width: 130px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.accsec4{
+    background-image: url(./img/acc4.jpg);
+    width: 130px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.accsec5{
+    background-image: url(./img/acc5.jpg);
+    width: 130px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.accsec6{
+    background-image: url(./img/acc6.jpg);
+    width: 130px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.accsec7{
+    background-image: url(./img/acc7.jpg);
+    width: 130px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.accsec8{
+    background-image: url(./img/acc8.jpg);
+    width: 130px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.accsec9{
+    background-image: url(./img/acc9.jpg);
+    width: 130px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */
